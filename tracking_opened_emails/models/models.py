@@ -1,5 +1,5 @@
-from . import urllib
-from . import urlparse
+import urllib
+from urllib.parse import urlparse
 from odoo import api, tools, models, fields
 
 class mail_mail(models.Model):
