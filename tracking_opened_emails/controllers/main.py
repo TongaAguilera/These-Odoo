@@ -1,8 +1,8 @@
-import werkzeug
+from . import werkzeug
 
 from odoo import http, SUPERUSER_ID
 from odoo.http import request
-import logging
+from . import logging
 
 logger = logging.getLogger(__name__)
 

@@ -1,6 +1,6 @@
 import urllib
 import urlparse
-from odoo import api, tools,models,fields
+from odoo import api, tools, models, fields
 
 class mail_mail(models.Model):
     _inherit = 'mail.mail'
