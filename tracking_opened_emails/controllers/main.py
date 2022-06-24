@@ -1,7 +1,7 @@
 import werkzeug
 
-from openerp import http, SUPERUSER_ID
-from openerp.http import request
+from odoo import http, SUPERUSER_ID
+from odoo.http import request
 import logging
 
 logger = logging.getLogger(__name__)

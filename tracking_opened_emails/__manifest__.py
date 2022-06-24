@@ -24,14 +24,14 @@
     'name': 'Tracking Opened Emails',
     'version': '1.0',
     'category': 'Email',
-    "website": 'http://www.rinc-technologies.com',
+    "website": '',
     'description': """
 Tracking Opened Emails
 ===============================================
 This module lets you know if the emails sent from Odoo were read by the recipients in.
 A stage 'opened' was added in the form 'Configuration' => ' Technical ' => 'Email' => ' Emails' and the opened emails are in green in the tree vue.
     """,
-    'author': 'RINC Technologies',
+    'author': 'Gaston',
     'depends': ['mail'],
     'data': [
              'views/view_mail_form.xml',
