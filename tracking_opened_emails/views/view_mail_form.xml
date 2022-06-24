@@ -1,4 +1,5 @@
-<openerp>
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
     <data>
         <record model="ir.ui.view" id="view_mail_form">
             <field name="name">View Mail Form</field>
@@ -15,8 +16,7 @@
             <field name="model">mail.mail</field>
             <field name="inherit_id" ref="mail.view_mail_tree"/>
             <field name="arch" type="xml">
-               <tree position="attributes">
-                   <attribute name="colors">grey:state in ('sent', 'cancel');blue:state=='outgoing';red:state=='exception';black:state=='received';green:state=='opened'</attribute>
+               <tree string="attributes" decoration-muted="(state in ('sent', 'cancel'))" decoration-info="(state=='outgoing')" decoration-danger="(state=='exception')" decoration-primary="(state=='received')" decoration-success="(green:state=='opened')">
                </tree>
             </field>
         </record>
@@ -31,4 +31,4 @@
             </field>
         </record>
     </data>
-</openerp>
+</odoo>
