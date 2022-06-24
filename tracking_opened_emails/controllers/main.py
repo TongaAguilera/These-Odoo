@@ -1,4 +1,4 @@
-from . import werkzeug
+import werkzeug
 
 from odoo import http, SUPERUSER_ID
 from odoo.http import request
