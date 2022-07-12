@@ -1,6 +1,6 @@
 
 {
-    'name': 'prueba',
+    'name': 'Prueba',
     'version': '1',
     'depends': [
         'base_setup',
