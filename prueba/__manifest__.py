@@ -5,6 +5,8 @@
     'depends': [
         'base_setup',
     ],
-    'description': """Holis""",
+    'description': 'Holis',
+    'installable': True,
     'application': True,
+    'auto_install': False,
 }
