@@ -6,6 +6,7 @@
         'base_setup',
     ],
     'description': 'Holis',
+    'summary': 'Muy Buenas',
     'installable': True,
     'application': True,
     'auto_install': False,
